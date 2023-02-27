@@ -4,7 +4,7 @@ class NotesView extends StatelessWidget {
   const NotesView({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext cintext) {
+  Widget build(BuildContext context) {
     return Scaffold();
   }
 }
