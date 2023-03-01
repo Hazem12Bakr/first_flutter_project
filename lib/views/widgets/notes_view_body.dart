@@ -60,7 +60,7 @@ class NoteItem extends StatelessWidget {
           Text(
             'Mar 1 , 2023',
             style: TextStyle(
-              color: Colors.black,
+              color: Colors.black.withOpacity(.4),
             ),
           ),
         ],
