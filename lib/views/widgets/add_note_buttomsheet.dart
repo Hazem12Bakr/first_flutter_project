@@ -42,7 +42,14 @@ class CustomButton extends StatelessWidget {
       decoration: BoxDecoration(
           color: kPrimaryColor, borderRadius: BorderRadius.circular(8)),
       child: const Center(
-        child: Text('save'),
+        child: Text(
+          'Add',
+          style: TextStyle(
+            color: Colors.black,
+            fontWeight: FontWeight.bold,
+            fontSize: 20,
+          ),
+        ),
       ),
     );
   }
