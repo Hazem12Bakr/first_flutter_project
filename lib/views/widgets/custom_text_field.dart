@@ -9,7 +9,7 @@ class CustomtextField extends StatelessWidget {
       decoration: InputDecoration(
         border: buildBorder(),
         enabledBorder: buildBorder(),
-        focusedBorder: buildBorder(),
+        focusedBorder: buildBorder(Color(0xff62FCD7)),
       ),
     );
   }
