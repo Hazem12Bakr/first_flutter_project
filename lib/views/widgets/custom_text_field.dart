@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter_application_1/views/widgets/cinstance.dart';
+import 'package:flutter_application_1/views/widgets/constances.dart';
 
 class CustomtextField extends StatelessWidget {
   const CustomtextField({super.key, required this.hint, this.maxlines = 1});
