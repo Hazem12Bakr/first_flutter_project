@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/views/widgets/cinstance.dart';
+import 'package:flutter_application_1/views/widgets/constances.dart';
+import 'package:flutter_application_1/views/widgets/custom_button.dart';
 import 'package:flutter_application_1/views/widgets/custom_text_field.dart';
 
 class AddNoteButtomSheet extends StatelessWidget {
@@ -33,30 +34,6 @@ class AddNoteButtomSheet extends StatelessWidget {
               height: 16,
             ),
           ],
-        ),
-      ),
-    );
-  }
-}
-
-class CustomButton extends StatelessWidget {
-  const CustomButton({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: MediaQuery.of(context).size.width,
-      height: 55,
-      decoration: BoxDecoration(
-          color: kPrimaryColor, borderRadius: BorderRadius.circular(8)),
-      child: const Center(
-        child: Text(
-          'Add',
-          style: TextStyle(
-            color: Colors.black,
-            fontWeight: FontWeight.bold,
-            fontSize: 20,
-          ),
         ),
       ),
     );
