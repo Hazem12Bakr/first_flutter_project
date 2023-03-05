@@ -4,10 +4,10 @@ import 'package:hive_flutter/hive_flutter.dart';
 
 void main() async {
   //initialize hive
-  await Hive.initFlutter();
+  // await Hive.initFlutter();
 
   // open the box
-  var box = await Hive.openBox('mybox');
+  //var box = await Hive.openBox('mybox');
 
   runApp(const NotesApp());
 }
